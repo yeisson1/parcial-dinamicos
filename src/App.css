@@ -1,0 +1,121 @@
+.App{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+  flex-direction:column;
+  position:fixed;
+  margin-left:400px;
+  background-color:white;
+}
+
+.titleApp{
+  color:gray;
+  font-size:60px;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.input{
+  width:200px;
+  height:50px;
+  border-radius:5px;
+  border:2px solid gray;
+}
+
+::placeholder {
+  color: #c0bdbd;
+  font-size: 16px;
+}
+
+.button{
+  width:100px;
+  height:60px;
+  background-color:rgb(6, 108, 243);
+  border:2px solid white;
+  border-radius:10px;
+  cursor:pointer;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+
+}
+
+.button:hover{
+  background-color:rgb(5, 87, 194);
+  transition: all 0.1s ease-in-out;
+}
+
+.line{
+  width:60%;
+  height:1px;
+  background-color:rgb(214, 213, 213);
+  margin-top:40px;
+}
+
+.containerSimulacion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+.img { 
+  width:70px; 
+  height:60px;
+  margin-left:15px;
+  margin-top:25px;
+
+}
+
+.img:hover{ 
+  width:80px;
+  height:70px;
+  transition: all 0.3s ease;
+  cursor:pointer;
+}
+
+.tituloSimulacion{
+  color:gray;
+  font-size:20px;
+  margin-bottom:30px;
+}
+
+.textSimulacion{
+  color:gray;
+  font-size:20px;
+  margin-bottom:30px;
+
+}
+
+.containerHeader{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.containerTemperatura{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width:150px;
+  height:100px;
+  border:1px solid rgb(184, 184, 184);
+  margin-left:50px;
+  border-radius:5px;
+  
+}
+
+.label{
+  text-align: center;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.valor{
+  font-weight:bold;
+  font-size:20px;
+  align-items: center;
+}
